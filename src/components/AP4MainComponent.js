@@ -32,6 +32,14 @@ export default function AP4MainComponent() {
                 <div>
                     <div className="flex justify-between mb-2">
                         <div className="p-2 w-1/2">
+                            <p className="text-center">Gérer le patrimoine informatique</p>
+                        </div>
+                        <div className="p-2 w-1/2">
+                            <p className="text-center">Répondre aux incidents et aux demandes d’assistance et d’évolution</p>
+                        </div>
+                    </div>
+                    <div className="flex justify-between mb-2">
+                        <div className="p-2 w-1/2">
                             <p className="text-center">Travailler en mode projet</p>
                         </div>
                         <div className="p-2 w-1/2">

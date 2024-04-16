@@ -27,7 +27,7 @@ export default function Stage2Component() {
         <div className="flex w-full h-5/6 justify-around items-center ">
 
             <div className="w-6/12 flex justify-center rounded-3xl">
-              <swiper-container loop="true" pagination="true" navigation="true" autoplay-delay="5000" mousewheel="true" autoplay="true" keyboard="true">
+              <swiper-container>
                 <swiper-slide><div className="h-full"><img className="object-cover h-full" src="Stage2/1.png" alt="capture1"/></div></swiper-slide>
               </swiper-container>
             </div>

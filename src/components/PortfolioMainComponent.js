@@ -25,18 +25,13 @@ export default function PortfolioMainComponent() {
                       <p className="text-center">Gérer le patrimoine informatique</p>
                     </div>
                     <div className="p-2 w-1/2">
-                      <p className="text-center">Développer la présence en ligne de l'organisation</p>
+                      <p className="text-center">Travailler en mode projet</p>
                     </div>
                   </div>
                   <div className="flex justify-between mt-2">
                     <div className="p-2 w-1/2">
                       <p className="text-center">Mettre à disposition des utilisateurs un service informatique</p>
                     </div>
-                    <div className="p-2 w-1/2">
-                      <p className="text-center">Travailler en mode projet</p>
-                    </div>
-                  </div>
-                  <div className="flex justify-center mt-2">
                     <div className="p-2 w-1/2">
                       <p className="text-center">Organiser son développement professionnel</p>
                     </div>
