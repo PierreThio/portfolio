@@ -17,15 +17,20 @@ export default function AP4MainComponent() {
     <Fragment>
         <h1 className="text-5xl h-16 text-blue-500">Atelier de profesionnalisation 4</h1>
         <div className="flex w-full h-5/6 justify-around items-center ">
-            <div className="w-6/12 flex justify-center rounded-3xl">
-              <swiper-container loop="true" pagination="true" navigation="true" autoplay-delay="5000" mousewheel="true" autoplay="true" keyboard="true">
-                <swiper-slide><img className="object-contain" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/773/01-intro-773.jpg"/></swiper-slide>
-                <swiper-slide><img className="object-contain" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/773/01-intro-773.jpg"/></swiper-slide>
-                <swiper-slide><img className="object-contain" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/773/01-intro-773.jpg"/></swiper-slide>
-                <swiper-slide><img className="object-contain" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/773/01-intro-773.jpg"/></swiper-slide>
-                <swiper-slide><img className="object-contain" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/773/01-intro-773.jpg"/></swiper-slide>
-                <swiper-slide><img className="object-contain" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/773/01-intro-773.jpg"/></swiper-slide>
-              </swiper-container>
+            <div className="w-6/12 flex justify-center rounded-3xl h-full">
+                <swiper-container loop="true" pagination="true" navigation="true" autoplay-delay="5000" mousewheel="true" autoplay="true" keyboard="true">
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/1.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/2.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/3.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/4.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/5.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/6.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/7.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/8.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/9.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/10.jpg" alt="capture1"/></div></swiper-slide>
+                    <swiper-slide><div className="h-full flex justify-center"><img className="object-contain h-full" src="AP4/11.jpg" alt="capture1"/></div></swiper-slide>
+                </swiper-container>
             </div>
             <div className="w-4/12 flex flex-col border-4 border-blue-500 p-4 rounded-xl">
                 <h2 className="text-xl font-bold text-center mb-2">Compétences acquises</h2>
