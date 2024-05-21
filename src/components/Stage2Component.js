@@ -32,11 +32,11 @@ export default function Stage2Component() {
               </swiper-container>
             </div>
             
-            <div className="flex h-full w-5/12 justify-around items-center flex-col">
+            <div className="flex h-full w-5/12 justify-around lg:justify-between items-center flex-col">
 
-                <div className="w-7/12 flex flex-col border-4 border-blue-500 p-4 rounded-xl">
-                    <h2 className="text-xl font-bold text-center">Technologies utilisées</h2>
-                    <div className="flex justify-between mt-4">
+                <div className="w-7/12 flex flex-col border-4 border-blue-500 p-4 rounded-xl h-1/3">
+                    <h2 className="text-xl font-bold text-center h-full">Technologies utilisées</h2>
+                    <div className="flex justify-between mt-4 h-full">
                         <Image className="h-12 w-16" alt="CssIcon" src={CssIcon}/>
                         <Image className="h-12 w-16" alt="JavascriptIcon" src={JavascriptIcon}/>
                         <Image className="h-12 w-12" alt="D3jsIcon" src={D3jsIcon}/>
@@ -50,7 +50,7 @@ export default function Stage2Component() {
                 <div className="flex flex-col border-4 border-blue-500 p-4 rounded-xl">
                     <h2 className="text-xl font-bold text-center mb-2">Compétences acquises</h2>
                     <div>
-                        <div className="flex justify-between mb-2">
+                        <div className="flex justify-between">
                             <div className="p-2 w-1/2">
                                 <p className="text-center">Gérer le patrimoine informatique</p>
                             </div>
@@ -58,7 +58,7 @@ export default function Stage2Component() {
                                 <p className="text-center">Répondre aux incidents et aux demandes d'assistance et d'évolution</p>
                             </div>
                         </div>
-                        <div className="flex justify-between mt-2">
+                        <div className="flex justify-between">
                             <div className="p-2 w-1/2">
                                 <p className="text-center">Travailler en mode projet</p>
                             </div>
@@ -66,7 +66,7 @@ export default function Stage2Component() {
                                 <p className="text-center">Mettre à disposition des utilisateurs un service informatique</p>
                             </div>
                         </div>
-                        <div className="flex justify-center mt-2">
+                        <div className="flex justify-center">
                             <div className="p-2 w-1/2">
                                 <p className="text-center">Organiser son développement professionnel</p>
                             </div>

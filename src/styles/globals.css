@@ -81,3 +81,9 @@ section {
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1440px) {
+  *{
+    font-size: 12px
+  }
+}
